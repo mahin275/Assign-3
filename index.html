@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page With Framework</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+    <style>
+        .font-Manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar bg-base-100 m-3.5">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="text-red-600 font-bold" >Home</a></li>
+                  <li>
+                    <a>About</a>
+                    
+                  </li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+             <p class=" text-3xl font-black font-bebas ml-7">Hockey<span class="text-red-600" >’</span>s</a></p>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-red-600 font-bold" >Home</a></li>
+                  <li>
+                    <a>About</a>
+                    
+                  </li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end mr-9">
+              <span class="mr-6 hidden sm:block"><img src="Images/Frame (3).png" alt=""></span>
+              <button class="bg-[#FF4240] bg--700 text-white font-bold py-3 mr-4 px-4 rounded">
+                Click me
+              </button>
+            </div>
+          </div>
+    </nav>
+    <div>
+      <div class=" w-[80%] carousel lg:w-[92%] ml-11 lg:h-[97vh]">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex  justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle bg-black text-white" >❮</a> 
+            <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/41542-untitled-design-2022-12-25t210830671.webp" class="w-full  rounded-xl" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a> 
+            <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/hockey.webp" class="w-full rounded-xl" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a> 
+            <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
+          </div>
+        </div> 
+        <div class=" absolute mt-4 p-3 h-[33vh] top-72 w-[80%] bg-black lg:w-[48%] rounded-xl lg:p-5 lg:top-96 lg:right-14">
+          <p class="text-white text-xl font-bold ">Meet all the heroes from the field</p>
+          <p class="text-slate-400 text-base font-normal">On the icy battleground of hockey, heroes lace up their skates and wield sticks with unparalleled skill. From nimble forwards dazzling with goal-scoring finesse to steadfast goalkeepers guarding the net</p>
+        </div>
+        
+        </div>
+
+      </div>
+      <div class="text-center lg:mt-10 mt-48">
+        <p class="text-black text-2xl font-bold">Professional Hockeys Club</p> <br>
+        <p class="text-slate-600 text-base font-normal w-[70%] lg:ml-36 ml-16">Professional hockey clubs, the epitome of teamwork and sportsmanship, bring together elite athletes dedicated to the pursuit of victory on the ice.</p>
+      </div>
+      <div class=" mt-8 ml-36 lg:gap-7 lg:mt-9 lg:ml-44  lg:flex lg ">
+        
+
+<div>
+  <div class="radial-progress text-[#FF4240] rotate-180" style="--value:87; --size:9rem; " role="progressbar"><span class="text-[#131318] font-extrabold rotate-180">87%</span></div>
+  <h4 class="w-44 text-center my-4 pr-3 font-semibold text-[#131318]">Prayer Facility</h4>
+  <p class="w-40   text-center">In the heart of our professional hockey club, we recognize the significance of diversity and individual needs. </p>
+</div>
+<br>
+
+<div>
+  <div class="radial-progress text-[#49D293] rotate-180" style="--value:95; --size:9rem; " role="progressbar"><span class="text-[#131318] font-extrabold rotate-180 ">95%</span></div>
+  <h4 class="w-44 text-center my-4 pr-3 font-semibold text-[#131318]">Experienced Coach</h4>
+  <p class="w-40   text-center">An experienced coach is the backbone of any successful sports team, bringing a wealth of knowledge, strategic insight, and leadership to the game.  </p>
+</div>
+<br>
+<div>
+  <div class="radial-progress text-[#FFB546] rotate-180" style="--value:90; --size:9rem; " role="progressbar"><span class="text-[#131318] font-extrabold rotate-180">90%</span></div>
+  <h4 class="w-44 text-center my-4 pr-3 font-semibold text-[#131318]">Senior Player</h4>
+  <p class="w-40   text-center">Within the esteemed ranks of our hockey club, the senior player stands as a stalwart symbol of skill, leadership, and unwavering dedication </p>
+</div>
+<br>
+<div>
+  <div class="radial-progress text-[#4C8DF1] rotate-180" style="--value:80; --size:9rem; " role="progressbar"><span class="text-[#131318] font-extrabold rotate-180">80%</span></div>
+  <h4 class="w-44 text-center my-4 pr-3 font-semibold text-[#131318]">Training Ground</h4>
+  <p class="w-40   text-center">Nestled within the realm of our hockey club, the training ground stands as the crucible where raw talent transforms into precision and teamwork.  </p>
+</div>
+
+      </div>
+      <div class="text-center lg:mt-10 mt-24">
+        <p class="text-black text-2xl font-bold">Program Sections</p> <br>
+        <p class="text-slate-600 text-base font-normal w-[70%] lg:ml-36 ml-16">Within the multifaceted landscape of our hockey club, various program sections cater to diverse age groups and skill levels, ensuring a comprehensive and inclusive approach to player development</p>
+      </div>
+
+<div class="  lg:flex lg:mt-10  lg:ml-10 ">
+  
+    <div class=" lg:w-[98%] w-[85%] ml-9 mt-4">
+      <div class="card mr-5 bg-base-100 shadow-xl image-full ">
+        <figure><img src="Images/2.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title  text-white font-extrabold">Junior Program</h2>
+          <p>Within the dynamic framework of our hockey club, the Teenager Program stands as a pivotal bridge between youth development and professional aspirations. </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-error relative right-2/4  w-[55%] lg:-mr-4 -mr-2  text-white">Register Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-[98%] w-[85%] lg:ml-1 ml-9 mt-4">
+      <div class="card  mr-5 bg-base-100 shadow-xl image-full ">
+        <figure><img src="Images/3.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title  text-white font-extrabold">Teenager Program</h2>
+          <p>Embedded in the core of our esteemed hockey club, the  represents the pinnacle of athletic excellence and competitive spirit. </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-error lg:relative right-2/4  w-[55%] lg:-mr-4 mr-32  text-white">Register Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</div>
+<div class="  lg:w-[94%]  w-[85%]  ml-9 lg:ml-16 lg:mt-5 mt-5">
+  <div class="  card mr-5 bg-base-100 shadow-xl image-full">
+    <figure><img src="Images/4.png" alt="Shoes" /></figure>
+    <div class="card-body">
+ <div class="lg:mt-36 ">
+  <h2 class="card-title  text-white font-extrabold">Professional Program</h2>
+  <p>At the heart of our hockey club lies the Junior Program, a vibrant initiative cultivating the next generation of skilled athletes and passionate team players. </p>
+ </div>
+      <div class="card-actions justify-end">
+        <button class="btn btn-error lg:relative lg:right-3/4 lg:w-[25%] w-[55%] lg:mr-1 mr-32  text-white ">Register Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+            
+     <div>
+      <div class="text-center lg:mt-10 mt-24">
+        <p class="text-black text-2xl font-bold">Our New Products</p> <br>
+        <p class="text-slate-600 text-base font-normal w-[70%] lg:ml-36 ml-16">In the ever-evolving landscape of our hockey club, we are thrilled to introduce an array of new products designed to enrich the experience for players, fans, and supporters alike.</p>
+      </div>
+     </div>   
+
+     <div>
+
+     </div>
+
+   
+
+  
+ <div class="lg:flex">
+  <div class="lg:flex ml-20 mt-24">
+    <img src="Images/5.png" alt="">
+  
+     <div>
+      <p class="flex gap-3 mt-3 ml-4"><img src="Images/Frame (7).png " alt=""><span>5.0</span><img src="Images/Frame (9).png" alt=""><span>20</span><img src="Images/Frame (8).png" alt="">200</p>
+      <div class="mt-3 ml-4">
+        <h2 class="">World Cup Flags Football</h2>
+      <p class="text-xs w-52">The World Cup, a global spectacle  of football prowess, unites.</p>
+      </div>
+      <div class=" mt-3 ml-4 flex">
+        <div class="text-[#FF4240]   gap-3 font-extrabold text-lg">Price - $22.00</div>
+      <div>
+        <div><img src="Images/Frame (10).png" alt=""></div>
+        <div><span  class="font-normal text-slate-500">Delivery Fee : Free</span></div>
+      </div>
+     </div>
+   
+  </div>
+</div>
+<div class="lg:flex ml-20 mt-24">
+  <img src="Images/6.png" alt="">
+
+   <div>
+    <p class="flex gap-3 mt-3 ml-4"><img src="Images/Frame (7).png " alt=""><span>5.0</span><img src="Images/Frame (9).png" alt=""><span>20</span><img src="Images/Frame (8).png" alt="">200</p>
+    <div class="mt-3 ml-4">
+      <h2 class="">World Cup Flags Football</h2>
+    <p class="text-xs w-52">The World Cup, a global spectacle  of football prowess, unites.</p>
+    </div>
+    <div class="flex  mt-3 ml-4">
+      <div class="text-[#FF4240]   gap-5 font-extrabold text-lg">Price - $22.00</div>
+      <div class=""><img src="Images/Frame (10).png" alt=""></div>
+      <div class="">  <span  class="font-normal text-slate-500">Delivery Fee : Free</span></div>
+   </div>
+ 
+</div>
+</div>
+ </div>
+
+ 
+ <div class="lg:flex">
+  <div class="lg:flex ml-20 mt-24">
+    <img src="Images/7.png" alt="">
+  
+     <div>
+      <p class="flex gap-3 mt-3 ml-4"><img src="Images/Frame (7).png " alt=""><span>5.0</span><img src="Images/Frame (9).png" alt=""><span>20</span><img src="Images/Frame (8).png" alt="">200</p>
+      <div class="mt-3 ml-4">
+        <h2 class="">World Cup Flags Football</h2>
+      <p class="text-xs w-52">The World Cup, a global spectacle  of football prowess, unites.</p>
+      </div>
+      <div class=" mt-3 ml-4 flex">
+        <div class="text-[#FF4240]   gap-3 font-extrabold text-lg">Price - $22.00</div>
+      <div>
+        <div><img src="Images/Frame (10).png" alt=""></div>
+        <div><span  class="font-normal text-slate-500">Delivery Fee : Free</span></div>
+      </div>
+     </div>
+   
+  </div>
+</div>
+<div class="lg:flex ml-20 mt-24">
+  <img src="Images/8.png" alt="">
+
+   <div>
+    <p class="flex gap-3 mt-3 ml-4"><img src="Images/Frame (7).png " alt=""><span>5.0</span><img src="Images/Frame (9).png" alt=""><span>20</span><img src="Images/Frame (8).png" alt="">200</p>
+    <div class="mt-3 ml-4">
+      <h2 class="">World Cup Flags Football</h2>
+    <p class="text-xs w-52">The World Cup, a global spectacle  of football prowess, unites.</p>
+    </div>
+    <div class="flex  mt-3 ml-4">
+      <div class="text-[#FF4240]   gap-5 font-extrabold text-lg">Price - $22.00</div>
+      <div class=""><img src="Images/Frame (10).png" alt=""></div>
+      <div class="">  <span  class="font-normal text-slate-500">Delivery Fee : Free</span></div>
+   </div>
+ 
+</div>
+</div>
+ </div>
+
+ 
+ <div class="lg:flex">
+  <div class="lg:flex ml-20 mt-24">
+    <img src="Images/9.png" alt="">
+  
+     <div>
+      <p class="flex gap-3 mt-3 ml-4"><img src="Images/Frame (7).png " alt=""><span>5.0</span><img src="Images/Frame (9).png" alt=""><span>20</span><img src="Images/Frame (8).png" alt="">200</p>
+      <div class="mt-3 ml-4">
+        <h2 class="">World Cup Flags Football</h2>
+      <p class="text-xs w-52">The World Cup, a global spectacle  of football prowess, unites.</p>
+      </div>
+      <div class=" mt-3 ml-4 flex">
+        <div class="text-[#FF4240]   gap-3 font-extrabold text-lg">Price - $22.00</div>
+      <div>
+        <div><img src="Images/Frame (10).png" alt=""></div>
+        <div><span  class="font-normal text-slate-500">Delivery Fee : Free</span></div>
+      </div>
+     </div>
+   
+  </div>
+</div>
+<div class="lg:flex ml-20 mt-24">
+  <img src="Images/10.png" alt="">
+
+   <div>
+    <p class="flex gap-3 mt-3 ml-4"><img src="Images/Frame (7).png " alt=""><span>5.0</span><img src="Images/Frame (9).png" alt=""><span>20</span><img src="Images/Frame (8).png" alt="">200</p>
+    <div class="mt-3 ml-4">
+      <h2 class="">World Cup Flags Football</h2>
+    <p class="text-xs w-52">The World Cup, a global spectacle  of football prowess, unites.</p>
+    </div>
+    <div class="flex  mt-3 ml-4">
+      <div class="text-[#FF4240]   gap-5 font-extrabold text-lg">Price - $22.00</div>
+      <div class=""><img src="Images/Frame (10).png" alt=""></div>
+      <div class="">  <span  class="font-normal text-slate-500">Delivery Fee : Free</span></div>
+   </div>
+ 
+</div>
+</div>
+ </div>
+
+
+
+ 
+  
+   <p>sdfgszdfg</p>
+
+ 
+    
+</body>
+
+</html>
