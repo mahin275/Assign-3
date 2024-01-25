@@ -11,6 +11,7 @@
        
    </body>
     <style>
+      
         .font-Manrope {
             font-family: 'Manrope', sans-serif;
         }
@@ -398,42 +399,45 @@
    
    <div class="mt-12">
     <div class="lg:flex">
-      <div>
-        <label for="">First name</label>
-        <input type="text" placeholder="Enter your full name" class="input w-full max-w-xs" />
+      <div  class="lg:grid-cols-none grid-cols-2">
+       <div class="font-semibold"> <label for="">First name</label></div>
+       <div> <input type="text" placeholder="Enter your full name" class="input w-full max-w-xs" /></div>
       </div>
       
       <div>
-        <label for="">First name</label>
-        <input type="text" placeholder="Enter your full name" class="input w-full max-w-xs" />
+        <div class="font-semibold"><label for="">First name</label></div>
+     <div>   <input type="text" placeholder="Enter your full name" class="input w-full max-w-xs" /></div>
       </div>
      </div>
      <br><br><br>
      <div class="lg:flex mt-4">
-      <div>
-        <label for="">First name</label>
-        <input type="text" placeholder="Enter your full name" class="input w-full max-w-xs" />
+      <div class="lg:grid-cols-none grid-cols-2">
+        <div class="font-semibold"><label for="">First name</label></div>
+        <div><input type="text" placeholder="Enter your full name" class="input w-full max-w-xs" /></div>
       </div>
-      <div>
-        <label for="">First name</label>
-        <input type="text" placeholder="Enter your full name" class="input w-full max-w-xs" />
-      </div>
+      <div class="lg:grid-cols-none grid-cols-2">
+      <div class="font-semibold">  <label for="">First name</label></div>
+        <div><input type="text" placeholder="Enter your full name" class="input w-full max-w-xs" /></div>
+      </div >
      </div>
-    <div class="mt-8"> <textarea placeholder='Message' rows="6"
-      class="w-[90%] h-[70vh] rounded-md px-4 bg-gray-100 text-sm pt-3 outline-blue-500"></textarea></div>
-      
-      
-      <button class="btn btn-error w-3/4">Send Message</button>
+    <div class="lg:grid-cols-none grid-cols-2">
+      <div class="font-semibold"><label for="">Mesaage</label></div>
+      <div class="mt-8"> <textarea placeholder='Message' rows="6"
+        class="w-[90%] h-[70vh] rounded-md px-4 bg-gray-100 text-sm pt-3 outline-blue-500"></textarea></div>
+        
+        
+        <button class="btn btn-error lg:w-3/4 w-4/5 lg:ml-0 ml-9  text-white">Send Message</button>
+    </div>
   </div>
   
   
    </div>
   </div>
-  <div class="mt-5">
-    <p class="text-center">Social Media</p>
-    <span class=""> <img class="ml-[450px]" src="Images/Social.png" alt=""></span>
+  <div class="mt-5 lg:mr-3">
+    <p class="text-center text-xl font-medium ">Social Media</p> <br>
+   <img class="lg:ml-[470px] ml-32" src="Images/Social.png" alt="">
   </div>
-  <footer class=" lg:p-10 bg-black text-neutral-content mt-14 lg:h-[60vh] lg:grid lg:grid-cols-4  grid   h-[170vh] gap-24">
+  <footer class=" lg:p-10 bg-black text-neutral-content mt-14 lg:h-[60vh] lg:grid lg:grid-cols-4 col-span-3     h-[170vh] gap-24">
     
     <div>
       <div class="ml-15">
@@ -456,7 +460,7 @@
         </div>
 
         
-        <div class="lg:span-0 col-span-3 ">
+        <div class="span-1 ">
           <header>Company</header> <br>
         <li class="list-none text-current text-xs"> <a class="text-slate-500" href="">About us</a></li> <br>
          <li class="list-none text-xs"><a  class="text-slate-500"href="">Leadership</a></li><br>
@@ -464,7 +468,7 @@
         <li class="list-none text-xs"> <a  class="text-slate-500"href="">News & Article</a></li> <br>
      <li class="list-none text-xs">    <a  class="text-slate-500"href="">Legal Notice</a></li> <br>
        </div>
-       <div>
+       <div class="span-1">
         <header>Support</header> <br>
       <li class="list-none text-xs"> <a class="text-slate-500" href="">Help Center</a></li> <br>
        <li class="list-none text-xs"><a  class="text-slate-500"href="">FAQ</a></li> <br>
@@ -473,7 +477,7 @@
   
      </div>
    
-     <div>
+     <div class="span-2">
       <header>Services</header> <br>
     <li class="list-none text-xs"> <a class="text-slate-500" href="">Academy</a></li><br>
      <li class="list-none text-xs"><a class="text-slate-500" href="">Group Lesson</a></li> <br>
@@ -487,6 +491,7 @@
    
   
   </footer>
+ 
     
 </body>
 
